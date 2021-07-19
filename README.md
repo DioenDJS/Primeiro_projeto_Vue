@@ -4,7 +4,7 @@
 <h1 align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" align="center" alt="img-logo-vue" height="60" width="60"> Primeiro projeto Vue.js</h1>
 
 <p align="center">
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/DioenDJS/Projeto-Letmeask" />
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/DioenDJS/Primeiro_projeto_Vue" />
 </p>
 
 <img src="projeto_vue.png" alt="imagem do projeto">
@@ -18,8 +18,10 @@
 
 ## Projeto :computer:
 
-Este projeto e uma pagina de um podcast com paginas estaticas providas pelo Nextjs,
-os podcasts serão fornecidos através de um arquivo json para nossa API.
+Este projeto tem como objetivo aprender a cria SPA com Vue.js tem por base 
+um projeto que encontrei em um canal do youtube WDEV em que estou aprendendo 
+este novo framework JavaScript
+  
 
 > - vue create 
 >
@@ -27,7 +29,7 @@ os podcasts serão fornecidos através de um arquivo json para nossa API.
 
 ## Como executar :gear:
 
-- Clone o repositório `https://github.com/DioenDJS/`.
+- Clone o repositório `https://github.com/DioenDJS/Primeiro_projeto_Vue`.
 - Install as dependências com o comando `npm install`.
 - Rode o `npm run serve` para iniciar a aplicação.<br />
 Ao final a aplicação estará disponível em `http://localhost:8080`.
