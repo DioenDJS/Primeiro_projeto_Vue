@@ -5,6 +5,8 @@
     --color-text-light:#fcfffc;
     --color-text-title:#FF5555;
     --color-text-dark:#3D3D3D;
+    --color-green-light:#248232;
+    --color-green-pantone:#2ba84a;
   }
 
   * {
@@ -20,6 +22,12 @@
   }
   .container{
       width: 90%;
+  }
+  main{
+      width: 100%;
+      height: calc(100vh - 120px);
+      display: flex;
+      flex-direction: column;
   }
   a{
       text-decoration: none;
