@@ -28,6 +28,12 @@
       height: calc(100vh - 120px);
       display: flex;
       flex-direction: column;
+      overflow-y: scroll;
+  }
+  h1{
+      color: var(--color-text-title);
+      margin:40px 0;
+      font-size:30px;
   }
   a{
       text-decoration: none;

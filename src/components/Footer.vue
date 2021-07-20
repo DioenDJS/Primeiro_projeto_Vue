@@ -25,6 +25,7 @@ export default {
 </script>
 <style scoped>
     footer {
+        z-index: 9;
         height: 60px;
         widows: 100%;
         background-color: var(--color-background-nav);

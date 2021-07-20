@@ -41,5 +41,9 @@ Ao final a aplicação estará disponível em `http://localhost:8080`.
 >
 > ``npm install axios``
 
+> - vue-router
+>
+> ``npm install vue-router``
+
 ## Aprendizado:
 > - O que aprendi neste projeto com o primeiro contato que tive no Vue.js 
