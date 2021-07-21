@@ -1,7 +1,7 @@
 <template>
     <header >
         <nav class="container">
-            <a href="/"><img src="../assets/logo-topo.png" id="logo" alt="dioend-logo"></a>
+            <router-link to="/"><img src="../assets/logo-topo.png" id="logo" alt="dioend-logo"></router-link>
 
             <img v-on:click="opemMenu" src="https://raw.githubusercontent.com/william-costa/wdev-mock-site-resources/master/assets/images/menu.svg
 " alt="Abrir menu" id="menu-button">
@@ -11,10 +11,10 @@
             <div id="menu-items" :class="{active:menuActive}">
                 <img src="../assets/logo-topo.png" id="menu-logo" alt="dioend-logo">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/videos">Videos</a></li>
-                    <li><a href="/sobre">Sobre</a></li>
-                    <li><a href="/contatos">Contatos</a></li>
+                    <li v-on:click="closeMenu" ><router-link to="/">Home</router-link></li>
+                    <li v-on:click="closeMenu" ><router-link to="/videos">Videos</router-link></li>
+                    <li v-on:click="closeMenu" ><router-link to="/sobre">Sobre</router-link></li>
+                    <li v-on:click="closeMenu" ><router-link to="/contato">Contato</router-link></li>
                 </ul>
             </div>
         </nav>
