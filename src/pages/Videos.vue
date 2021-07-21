@@ -29,7 +29,7 @@
             })
         }
     }
-    //pausa tempo de video 1:26
+    
 </script>
 
 <style scoped>
