@@ -8,6 +8,7 @@
 </p>
 
 <img src="projeto_vue.png" alt="imagem do projeto">
+-[vercel](https://primeiro-projeto-vue.vercel.app/)
 
 ## Tecnologias Utilizadas no projeto :construction:
 
