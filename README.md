@@ -46,4 +46,6 @@ Ao final a aplicação estará disponível em `http://localhost:8080`.
 > ``npm install vue-router``
 
 ## Aprendizado:
-> - O que aprendi neste projeto com o primeiro contato que tive no Vue.js 
+> - O que aprendi neste projeto com o primeiro contato que tive no Vue.js foi a forma de
+> - ter toda o codigo do componente um so arquivo ``Single File Components`` que torna 
+> - a forma de dar manutenção ou debugar mais agradável e intuitiva.
